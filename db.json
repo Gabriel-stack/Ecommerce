@@ -1,0 +1,22 @@
+{
+    "produtos": [
+        {
+            "id": 1,
+            "image": "https://m.media-amazon.com/images/I/41toosSJ+VL._AC_.jpg",
+            "description": "Smartphone Xiaomi Redmi Note 10 Versão Global 6GB+128GB Cinza",
+            "price": 1640
+        },
+        {
+            "id": 2,
+            "image": "https://m.media-amazon.com/images/I/61Lmbxb9rLS._AC_SL1000_.jpg",
+            "description": "SMARTPHONE XIAOMI POCO X3 PRO 6GB RAM 128GB ROM - GLOBAL",
+            "price": 1500
+        },
+        {
+            "id": 3,
+            "image": "https://m.media-amazon.com/images/I/61iqxe5f2xL._AC_SL1200_.jpg",
+            "description": "Smartphone Xiaomi Poco X3 64 GB Shadow Gray 6GB RAM",
+            "price": 1569
+        }
+    ]
+}
