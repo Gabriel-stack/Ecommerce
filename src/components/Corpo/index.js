@@ -1,8 +1,7 @@
 import * as S from './styled';
 import api from '../../services/api';
 import React, {useState, useEffect} from 'react';
-
-
+import Header from '../Header';
 export default function Corpo(){
     const [dados, setDados] = useState([]);
     useEffect(() =>{
@@ -14,7 +13,7 @@ export default function Corpo(){
     },[])
     const handleCart = (index)=>{
         const pd = JSON.stringify(dados[index]);
-        localStorage.setItem([`produto-${index}`], pd);
+        localStorage.setItem(`produto-${index}`, pd);
     }
     return(
         <S.container>

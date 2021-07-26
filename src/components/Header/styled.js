@@ -2,10 +2,9 @@ import styled from 'styled-components';
 
 export const container = styled.header`
     display: flex;
-    height: 150px;
+    height: 40px;
     width: 100%;
-    background-image: url('https://shopfacil.vteximg.com.br/arquivos/ids/77463971/banner_topo_eletronicos.jpg?');
-    background-color: blue;
+    background: #2C3E50;
     div{
         flex-shrink: 3;   
         flex-grow: 2;   
@@ -19,9 +18,9 @@ export const container = styled.header`
     }
     ul li{
         font-weight: 900;
-        margin-right: 10px;
+        margin-right: 100px;
         padding: 5px 5px;
-        color: black;
+        color: white;
         font-size: 1rem;
         list-style: none;
     }
